@@ -1,6 +1,6 @@
 # TablePI
 
-TablePI: A Vue table component, with rich functionality. Using Tailwind CSS and Headless UI.
+TablePI: A Vue Table component, with rich functionality. Using Tailwind CSS and Headless UI.
 
 ## Development :sunglasses:
 
