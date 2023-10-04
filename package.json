@@ -1,0 +1,44 @@
+{
+  "name": "tablepi",
+  "version": "0.0.1",
+  "description": "TablePI: A Vue table component, with rich functionality. Using Tailwind CSS and Headless UI.",
+  "main": "src/tablepi.js",
+  "exports": {
+    "import": "./dist/tablepi.mjs",
+    "require": "./dist/tablepi.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitOfGold/tablepi.git"
+  },
+  "keywords": [
+    "vue",
+    "table",
+    "component",
+    "library",
+    "tailwind",
+    "css",
+    "headlessui"
+  ],
+  "author": "László Matuska @BitOfGold",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BitOfGold/tablepi/issues"
+  },
+  "homepage": "https://github.com/BitOfGold/tablepi#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.10",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
